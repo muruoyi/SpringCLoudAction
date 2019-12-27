@@ -1,0 +1,42 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    com.example.demo: DEBUG
+
+
+spring:
+  application:
+    name: cloud-todo-service
+
+  datasource:
+    driverClassName: org.h2.Driver
+#    url: jdbc:h2:mem:test;MODE=PostgreSQL;DB_CLOSE_ON_EXIT=FALSE
+    url: jdbc:h2:./hohistar-con-data
+    username: sa
+    password:
+  jpa:
+    database: H2
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
+      path: /api/h2
+      settings:
+        web-allow-others: true
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
