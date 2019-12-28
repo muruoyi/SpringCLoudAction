@@ -1,7 +1,9 @@
 package cn.com.hohistar.tutorial.springboot.starter.api.vo;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @Classname ApiResult
@@ -12,11 +14,13 @@ import lombok.Data;
 
 @Data
 @Builder(toBuilder = true)
-public class ApiResult {
+@NoArgsConstructor
+@AllArgsConstructor
+public class ApiResult<T> {
 
     private boolean succ = false;
     private String code;
     private String msg;
-    private Object data;
+    private T data;
 
 }

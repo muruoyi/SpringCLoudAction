@@ -1,19 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="857c626e-4eb7-4526-ae4c-1c22cf575254" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../discoveryclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../discoveryclient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../discoveryclient/src/main/java/com/muruoyi/discoveryclient/api/TestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../discoveryclient/src/main/java/com/muruoyi/discoveryclient/api/TestApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../discoveryclient/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../discoveryclient/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/java/com/muruoyi/gatewayservice/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/main/java/com/muruoyi/gatewayservice/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springclouddemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springclouddemo/pom.xml" afterDir="false" />
+    <list default="true" id="857c626e-4eb7-4526-ae4c-1c22cf575254" name="Default Changelist" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_5_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_5_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_5_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_5_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_1_5_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_5_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_5_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_5_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_5_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_5_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hohistar-con-data.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/hohistar-con-data.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-restful-starter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-restful-starter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/hohistar/tutorial/springboot/starter/StarterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/hohistar/tutorial/springboot/starter/StarterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/hohistar/tutorial/springboot/starter/api/TodoApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/hohistar/tutorial/springboot/starter/api/TodoApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/hohistar/tutorial/springboot/starter/api/vo/ApiResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/hohistar/tutorial/springboot/starter/api/vo/ApiResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/hohistar/tutorial/springboot/starter/StarterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/com/hohistar/tutorial/springboot/starter/StarterApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/hohistar/tutorial/springboot/starter/api/TodoApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/com/hohistar/tutorial/springboot/starter/api/TodoApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/hohistar/tutorial/springboot/starter/api/vo/ApiResult$ApiResultBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/com/hohistar/tutorial/springboot/starter/api/vo/ApiResult$ApiResultBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/hohistar/tutorial/springboot/starter/api/vo/ApiResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/com/hohistar/tutorial/springboot/starter/api/vo/ApiResult.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -27,14 +59,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1VYYNLnH06gg0Seu2BJAMOnedLz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -92,25 +128,29 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1577431599201" />
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1577433961950">
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1577505323045">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1577433961950" />
-    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1577433961949">
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1577505323045" />
+    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1577505323045">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1577433961949" />
-    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1577433961949">
+    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1577505323045" />
+    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1577505323045">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1577433961949" />
-    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1577433961950">
+    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1577505323045" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1577505323045">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1577433961950" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1577505323045" />
     <state x="141" y="134" key="SettingsEditor" timestamp="1577431601262">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="141" y="134" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1577431601262" />
+    <state x="14" y="193" key="new project wizard" timestamp="1577501398871">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="14" y="193" key="new project wizard/0.0.1280.984@0.0.1280.984" timestamp="1577501398871" />
   </component>
 </project>

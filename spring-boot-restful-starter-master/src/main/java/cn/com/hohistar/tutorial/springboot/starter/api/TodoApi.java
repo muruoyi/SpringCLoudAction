@@ -27,14 +27,18 @@ public class TodoApi {
         return "ok";
     }
 
-    @GetMapping
+    @GetMapping("/todoList")
     public ApiResult getTodoList() {
 
         ApiResult.ApiResultBuilder builder = ApiResult.builder().succ(true).build().toBuilder();
 
         List<Todo> list = todoBiz.listAll();
-
-        return builder.build();
+        try {
+            Thread.currentThread().sleep(20 * 1000);
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
+        return builder.data(list).succ(true).msg("success").code("200").build();
     }
 
     @GetMapping("/test/add/todos")
