@@ -11,6 +11,9 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-config-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_5_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_5_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_5_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_5_BUILD_SNAPSHOT.xml" afterDir="false" />
@@ -34,6 +37,8 @@
       <change beforePath="$PROJECT_DIR$/target/classes/cn/com/hohistar/tutorial/springboot/starter/api/TodoApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/com/hohistar/tutorial/springboot/starter/api/TodoApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/com/hohistar/tutorial/springboot/starter/api/vo/ApiResult$ApiResultBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/com/hohistar/tutorial/springboot/starter/api/vo/ApiResult$ApiResultBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/com/hohistar/tutorial/springboot/starter/api/vo/ApiResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/com/hohistar/tutorial/springboot/starter/api/vo/ApiResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-config-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-config-client/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,22 +133,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1577431599201" />
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1577505323045">
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1577513406843">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1577505323045" />
-    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1577505323045">
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1577513406843" />
+    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1577513406843">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1577505323045" />
-    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1577505323045">
+    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1577513406843" />
+    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1577513406843">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1577505323045" />
-    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1577505323045">
+    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1577513406843" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1577513406843">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1577505323045" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1577513406843" />
     <state x="141" y="134" key="SettingsEditor" timestamp="1577431601262">
       <screen x="0" y="0" width="1280" height="984" />
     </state>

@@ -1,0 +1,35 @@
+server:
+  port: 9098
+
+spring:
+  application:
+    name: gateway
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+
+
+zuul:
+  prefix: /api
+  routes:
+    todo-by-service:
+      path: /todo/**
+      serviceId: cloud-todo-service
+  ratelimit:
+    enabled: true
+    repository: JPA
+    policy-list:
+      todo-by-service:
+        - limit: 3
+          refresh-interval: 30
+          type:
+            - origin

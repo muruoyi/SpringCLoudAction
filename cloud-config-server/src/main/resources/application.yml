@@ -2,8 +2,12 @@ server:
   port: 8888
 
 spring:
+  application:
+    name: config-server
   cloud:
     config:
       server:
         git:
-          uri: file://${user.home}/IdeaProjects/config-repo
+          uri: https://github.com/muruoyi/SpringCLoudAction
+          search-paths:
+            - config-repo
