@@ -1,10 +1,6 @@
 server:
   port: 9098
 
-spring:
-  application:
-    name: gateway
-
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 1
@@ -16,7 +12,6 @@ eureka:
       enabled: true
     lease:
       duration: 5
-
 
 zuul:
   prefix: /api
